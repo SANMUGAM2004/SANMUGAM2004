@@ -1,11 +1,11 @@
 <h1 align="center">Hi 👋, I'm H M SANMUGAM</h1>
 <h3 align="center">Passionate Cloud Engineering Aspirant from India.</h3>
 
-- 🔭 I’m currently working on [Rescue_agency](https://github.com/SANMUGAM2004/rescue_agency)
+- 🔭 I’m currently working on the project [Rescue_agency](https://github.com/SANMUGAM2004/rescue_agency)
 
 - 🌱 I’m currently learning **MERN Stack.**
 
-- 👯 I’m also working on [Bidding_app](https://github.com/SANMUGAM2004/Bidding_App)
+- 👯 I’m also working on the project [Bidding_app](https://github.com/SANMUGAM2004/Bidding_App)
 
 - 💬 Ask me about **Django, AWS Cloud services.**
 
