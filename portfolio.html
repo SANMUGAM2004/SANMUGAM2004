@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SANMUGAM H M - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+            color: #fff;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #444;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            transition: box-shadow 0.3s ease;
+        }
+        .container:hover {
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+        }
+        header, footer {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            border-radius: 8px 8px 0 0;
+        }
+        footer {
+            border-radius: 0 0 8px 8px;
+        }
+        .card {
+            border: 1px solid #555;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            transition: box-shadow 0.3s ease;
+            cursor: pointer; /* Added */
+            overflow: hidden; /* Added */
+        }
+        .card:hover {
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+            transform: scale(1.1); /* Added */
+        }
+        .highlight {
+            font-weight: bold;
+        }
+        .section-content {
+            padding-left: 20px;
+        }
+        .project {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #555;
+            border-radius: 8px;
+            transition: box-shadow 0.3s ease;
+        }
+        .project:hover {
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        }
+        .project h3 {
+            margin-bottom: 10px;
+        }
+        .project-details {
+            margin-bottom: 10px;
+        }
+        .fade-in {
+            animation: fadein 1s ease;
+        }
+        @keyframes fadein {
+            from { opacity: 0; }
+            to   { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Sanmugam H M </h1>
+        </header>
+
+        <div class="card fade-in">
+            <h2>About me</h2>
+            <p>
+                I am a pre-final year B.Tech IT student deeply passionate about technology, particularly cloud engineering. Proficient in technical skills, database management, and project coordination, I aspire to specialize in cloud technologies. Through coursework and personal exploration, I have developed a strong understanding of cloud computing principles and platforms. With a keen interest in optimizing cloud infrastructure and implementing scalable solutions, I am eager to contribute to the evolving landscape of cloud engineering.</p>
+        </div>
+
+        <div class="card fade-in">
+            <h2>Education</h2>
+            <div class="section-content">
+                <h3>Bachelor of Technology</h3>
+                <p>Information Technology</p>
+                <p>Karpagam Institute of Technology</p>
+                <p><span class="highlight">CGPA : 8.1</span> (up to fourth semester AU Examination)</p>
+                <p>Year of Completion: 2025</p>
+        
+                <h3>HSC</h3>
+                <p>Rose Mary Matriculation Higher Secondary School, Tirunelveli</p>
+                <p>Percentage: 92%</p>
+                <p>Year of Completion: 2021</p>
+            </div>
+        </div>
+        
+
+        <div class="card fade-in">
+            <h2>Technical Skills</h2>
+            <div class="section-content">
+                <h3>Programming Languages:</h3>
+                <ul>
+                    <li>Django - <span class="highlight">Basic</span></li>
+                    <li>Data Structure and Algorithms - <span class="highlight">Upper Intermediate</span></li>
+                    <li>SQL - <span class="highlight">Basic</span></li>
+                    <li>Version Control - <span class="highlight">Basic</span></li>
+                </ul>
+                <h3>Platforms:</h3>
+                <ul>
+                    <li>Skillrack</a></li>
+                    <li>LeetCode</li>
+                    <li>GeeksforGeeks</li>
+                </ul>
+            </div>
+        </div>
+        
+
+        <div class="project fade-in">
+            <h3>PROJECTS</h3>
+            <div class = "card fade-in">
+                <div class="project-details">
+                    <p><span class="highlight">2024 – present</span></p>
+                    <p><span class="highlight">ResQConnect</span></p>
+                    <p>This theme highlights the collaboration and unity among rescue agencies, creating a connected network for effective communication. "Unified Rescue Network" emphasizes the consolidation of information and resources while "ResQConnect" suggests a seamless and efficient system for connecting and coordinating rescue efforts.</p>
+                    <p><span class="highlight">Tech Stack:</span> HTML, CSS, JavaScript, Django, SQLite.</p>
+                    <p><span class="highlight">GitHub:</span> <a href="https://github.com/SANMUGAM2004/rescue_agency">ResQConnect Repository</a></p>
+                </div>
+            </div>
+            <div class = "card fade-in">
+                <div class="project-details">
+                    <p><span class="highlight">02/2023 – 02/2023</span></p>
+                    <p><span class="highlight">Speech-to-Text Web Application with AWS</span></p>
+                    <p>The project is a Django web application that enables users to upload video files for transcription. It utilizes AWS services such as S3 for storage and Transcribe for speech-to-text conversion. The uploaded videos are stored in S3, and transcription is initiated using Transcribe. Once transcription is finished, the text content is retrieved and displayed to users, who can also download the transcribed text. The application leverages Django for backend development and HTML/CSS for the user interface.</p>
+                    <p><span class="highlight">Tech Stack:</span> Django, AWS S3, AWS Transcribe.</p>
+                    <p><span class="highlight">GitHub:</span> <a href="https://github.com/SANMUGAM2004/speech_to_text_with_aws_transcribe">Speech to Textify Repository</a></p>
+                    <p><span class="highlight">Youtube:</span><a href="https://studio.youtube.com/video/to0KzmwAuxQ/edit">Speech to Textify</a></p>
+                </div>
+            </div>
+            <div class = "card fade-in">
+                <div class="project-details">
+                    <p><span class="highlight">02/2024 – 02/2024</span></p>
+                    <p><span class="highlight">Employee Management System with AWS Integration</span></p>
+                    <p>Developed a web application utilizing Flask, MySQL, and AWS S3 to manage employee information, including storage and retrieval of employee data and images. Implemented features such as dynamic search functionality and image uploading, showcasing proficiency in full-stack development and cloud services integration.</p>
+                    <p><span class="highlight">Tech Stack:</span> Flask, MySQL, AWS S3.</p>
+                    <p><span class="highlight">GitHub:</span> <a href="https://github.com/SANMUGAM2004/aws_employee_management">Employee Management Repository</a></p>
+                    <p><span class="highlight">Youtube:</span><a href="https://studio.youtube.com/video/C89yXktJWgM/edit">Employee Management System</a></p>
+                </div>
+            </div>
+            <div class = "card fade-in">
+                <div class="project-details">
+                    <p><span class="highlight">12/2023 – 12/2023</span></p>
+                    <p><span class="highlight">NotePass</span></p>
+                    <p>NotePass is a Django-based web application designed to provide users with a secure and convenient platform to store both their notes and various platform passwords in a single location. The application features robust authentication mechanisms to ensure user data remains private and accessible only to authorized individuals. With NotePass, users can securely manage their important information, retrieve forgotten passwords, and access essential notes whenever needed, all within a user-friendly interface.</p>
+                    <p><span class="highlight">Tech Stack:</span> Django, SQLite.</p>
+                    <p><span class="highlight">GitHub:</span> <a href="https://github.com/SANMUGAM2004/NotePass">NotePass Repository</a></p>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="card fade-in">
+            <h2>Soft Skills</h2>
+            <div class="section-content">
+                <ul>
+                    <li>Creativity</li>
+                    <li>Multi-tasking</li>
+                    <li>Observation</li>
+                    <li>Time Management</li>
+                    <li>Team Work</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card fade-in">
+            <h2>Hobbies</h2>
+            <div class="section-content">
+                <ul>
+                    <li>Problem Solving</li>
+                    <li>Playing Chess</li>
+                    <li>Playing Sudoku</li>
+                </ul>
+            </div>
+        </div>
+        
+
+        <div class="card fade-in">
+            <h2>Area of Interest</h2>
+            <div class="section-content">
+                <ol>
+                    <li>Cloud Computing</li>
+                    <li>Web App Development</li>
+                </ol>
+            </div>
+        </div>
+        
+
+        <div class="card fade-in">
+            <h2>Internship</h2>
+            <div class="section-content">
+                <p>SYSCORP TECHNOLOGY PVT. LIMITED: During the internship, I learned front-end web technologies including HTML, CSS, and JavaScript. (10/07/2023 - 28/07/2023)</p>
+            </div>
+        </div>
+
+        <div class="card fade-in">
+            <h2>Accomplishments</h2>
+            <div class="section-content">
+                <p>Won 1st Prize on “12hrs Hackathon” in Geek Week 3.0</p>
+            </div>
+        </div>
+
+        <footer>
+            <div class="contact-info">
+                <p>Email: <a href="mailto:hmsanmugam@gmail.com">hmsanmugam@gmail.com</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/sanmugam-hm">linkedin.com/in/sanmugam-hm</a></p>
+                <p>PhoneNumber: <span class="highlight">9361936913</span></p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
