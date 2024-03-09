@@ -1,6 +1,9 @@
 <h1 align="center">Hi 👋, I'm H M SANMUGAM</h1>
 <h3 align="center">Passionate Cloud Engineering Aspirant from India.</h3>
 
+<h2>About me:</h2>
+Looking for a challenging role in a reputable organization to utilize my technical, database, and management skills for the growth of the organization as well as to enhance my knowledge about new and emerging trends in the IT sector.
+
 - 🔭 I’m currently working on the project [Rescue_agency](https://github.com/SANMUGAM2004/rescue_agency)
 
 - 🌱 I’m currently learning **MERN Stack.**
