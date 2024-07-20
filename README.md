@@ -4,7 +4,7 @@
 <h2>About me:</h2>
 Looking for a challenging role in a reputable organization to utilize my DevOps, technical, database, and management skills for the growth of the organization as well as to enhance my knowledge about new and emerging trends in the IT sector.
 
-- 🔭 I’m currently working on the project [Simple Mock Interview with AWS SageMaker](https://github.com/SANMUGAM2004/rescue_agency)
+- 🔭 I’m currently working on the project [Simple Mock Interview with AWS SageMaker](https://github.com/SANMUGAM2004/Mock_interview.git)
 
 - 🌱 I’m currently learning **Devops**
 
